@@ -188,6 +188,6 @@ function movebirdbytouchstart(){
         bird.y = birdY;
         pipeArray = [];
         score = 0;
-        gameOver = false;
-    }
+        gameOver = false;
+    }
 }
