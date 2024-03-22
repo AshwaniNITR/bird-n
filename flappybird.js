@@ -180,7 +180,8 @@ function detectCollision(a, b) {
         a.y < b.y + b.height &&
         a.y + a.height > b.y;
 }
-function movebirdbytouchstart(){
+function movebirdbytouchstart(e){
+    e.preventDefault();
     velocityY = -8.3;
 
     //reset game
