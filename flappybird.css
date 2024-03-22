@@ -1,0 +1,12 @@
+body {
+    position: fixed;
+    font-family:'Courier New', Courier, monospace;
+    text-align: center;
+}
+
+#board {
+    background-image: url("./bg.webp");
+}
+
+
+

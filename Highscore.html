@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+    <head><title>High Score</title></head>
+    <link rel="stylesheet" href="Highscore.css">
+    <body>
+        <div class="HighScore">
+            <p>High Score : <span id="highScore"></span></p>
+            </div>
+<div class="button">
+    <button type="button"> <a href="index.html"> Start Again</a> </button>
+</div>
+<script>
+    document.getElementById('highScore').innerText = localStorage.getItem('highScore') || 'No high score yet';
+</script>
+        
+    </body>
+</html>

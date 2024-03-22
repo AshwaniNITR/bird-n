@@ -1,0 +1,36 @@
+body{
+    background-image: image-set("bg.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+.HighScore{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.HighScore p{
+    font-size: 100px;
+    font-weight: 600; 
+    color: white;  
+}
+
+
+.button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+button{
+    padding: 10px;
+    font-size: 80px;
+    background-image: image-set("bg.webp");
+    border: 1px solid black;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(135, 235, 235);
+}
